@@ -1,0 +1,38 @@
+.campo{
+    margin-bottom: 25px;
+    /* padding: 5px; */
+    width: 100%;
+}
+
+.campo label{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--blanco);
+}
+
+.campo input{
+    width: 100%;
+    background-color: var(--negro);
+    box-shadow: 10px 10px 30px rgba(34, 33, 33, 0.06);
+    border: none;
+    padding: 10px 20px;
+    color: #86868B;
+    /* outline-color: var(--azul); */
+    font-size: 18px;
+    box-sizing: border-box;
+    border: solid 2.7px var(--blanco);
+    border-radius: .9em;
+    
+    
+}
+.campo textarea{
+    width: 90%;
+    height: 80px;
+    color: #86868B;
+    border-radius: .9em;
+    padding: 10px 20px;
+    background-color: var(--negro);
+    border: solid 2.7px var(--blanco);
+}

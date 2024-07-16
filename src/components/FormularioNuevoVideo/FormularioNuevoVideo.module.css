@@ -1,0 +1,29 @@
+
+.container_formulario{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container_formulario h4{
+   color: var(--blanco);
+   border-top: .5px solid #fff;
+   border-bottom: 0.3px solid #fff;
+   padding-top: 8px;
+   padding-bottom: 8px;
+    
+}
+
+.container_input{
+    display: grid;
+    grid-template-columns: 500px 400px;
+    width: 1020px;
+    gap: 0 4em;
+    
+}
+
+.container_boton{
+    display: inline-flex;
+    gap: 80px;
+}

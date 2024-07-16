@@ -1,0 +1,21 @@
+.contenedor_videos{
+    padding: 40px;
+    background-color: var(--plomo);
+}
+
+.categoria_seccion{
+    margin-bottom: 30px;
+}
+
+.categoria_seccion h2{
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.videos_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

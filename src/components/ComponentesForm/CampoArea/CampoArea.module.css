@@ -1,0 +1,19 @@
+.campoArea{
+
+}
+
+.campoArea  label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: var(--blanco);
+    font-weight: 700;
+}
+
+.campoArea textarea{
+    border: none;
+    height: 80px;
+    border-radius: .4em;
+    padding: 10px 20px;
+    outline-color: var(--azul);
+}

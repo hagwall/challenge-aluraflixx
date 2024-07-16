@@ -1,0 +1,14 @@
+.boton{
+    background-color:rgb(0, 68, 255);
+    border: solid 4px var(--azul);
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.boton:hover{
+    border: solid 4px var(--blanco);
+    color: yellow;
+}

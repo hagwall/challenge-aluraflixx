@@ -1,0 +1,35 @@
+.modal_principal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+.modal_contenido {
+    background-color: var(--negro);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    width: 800px;
+    max-width: 500px;
+    
+    
+    
+  }
+  .modal_boton {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  .tamanoArea{
+    width: 500px;
+  }

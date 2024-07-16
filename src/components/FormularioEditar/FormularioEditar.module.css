@@ -1,0 +1,33 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+    border: solid 2px #0A26FC;
+    background-color: #03122F;
+    width: 600px;
+    /* padding: 80px; */
+    gap: 20px;
+}
+
+.container_boton{
+    display: flex;
+    justify-content: space-between;
+    
+    /* gap: 5em; */
+    /* padding: 5px 10px; */
+    /* width: 400px;*/
+}
+
+.formulario form{
+    position: relative;
+    max-width: 80%;
+    flex: 1;
+}
+
+.cerrar{
+    position: absolute;
+    right: -50px;
+    margin-top: 5px;
+    font-size: 32px;
+    color: var(--blanco);
+}
